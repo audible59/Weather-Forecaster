@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FD1E79D69461AA75AB7CF1 /* Pods_Weather_Forecaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0D1E6457FEB20847212C56 /* Pods_Weather_Forecaster.framework */; };
+		39B14FB2271EA5F8019304EA /* Pods_Weather_Forecaster_Weather_ForecasterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB143F9BEDBE761F995D2F3 /* Pods_Weather_Forecaster_Weather_ForecasterUITests.framework */; };
+		657EF99EBD5FA0E3169544C5 /* Pods_Weather_ForecasterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF12DD3E35DC2150E326BA5 /* Pods_Weather_ForecasterTests.framework */; };
+		C99143EB27ADDDAA004216FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99143EA27ADDDAA004216FE /* AppDelegate.swift */; };
+		C99143ED27ADDDAA004216FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99143EC27ADDDAA004216FE /* SceneDelegate.swift */; };
+		C99143EF27ADDDAA004216FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99143EE27ADDDAA004216FE /* ViewController.swift */; };
+		C99143F227ADDDAA004216FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99143F027ADDDAA004216FE /* Main.storyboard */; };
+		C99143F427ADDDAC004216FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99143F327ADDDAC004216FE /* Assets.xcassets */; };
+		C99143F727ADDDAC004216FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99143F527ADDDAC004216FE /* LaunchScreen.storyboard */; };
+		C991440227ADDDAC004216FE /* Weather_ForecasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C991440127ADDDAC004216FE /* Weather_ForecasterTests.swift */; };
+		C991440C27ADDDAC004216FE /* Weather_ForecasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C991440B27ADDDAC004216FE /* Weather_ForecasterUITests.swift */; };
+		C991440E27ADDDAC004216FE /* Weather_ForecasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C991440D27ADDDAC004216FE /* Weather_ForecasterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99143FE27ADDDAC004216FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99143DF27ADDDAA004216FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99143E627ADDDAA004216FE;
+			remoteInfo = "Weather Forecaster";
+		};
+		C991440827ADDDAC004216FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99143DF27ADDDAA004216FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99143E627ADDDAA004216FE;
+			remoteInfo = "Weather Forecaster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45B2A76B71DE454227415A7E /* Pods-Weather ForecasterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather ForecasterTests.debug.xcconfig"; path = "Target Support Files/Pods-Weather ForecasterTests/Pods-Weather ForecasterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FF12DD3E35DC2150E326BA5 /* Pods_Weather_ForecasterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_ForecasterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		712CB9D4D4DC6E7C1AE055AB /* Pods-Weather Forecaster-Weather ForecasterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Forecaster-Weather ForecasterUITests.release.xcconfig"; path = "Target Support Files/Pods-Weather Forecaster-Weather ForecasterUITests/Pods-Weather Forecaster-Weather ForecasterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		845FBF82E532A7D02B9C1160 /* Pods-Weather Forecaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Forecaster.debug.xcconfig"; path = "Target Support Files/Pods-Weather Forecaster/Pods-Weather Forecaster.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB143F9BEDBE761F995D2F3 /* Pods_Weather_Forecaster_Weather_ForecasterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_Forecaster_Weather_ForecasterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1706C340FCD7FE3CBD11275 /* Pods-Weather Forecaster-Weather ForecasterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Forecaster-Weather ForecasterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Weather Forecaster-Weather ForecasterUITests/Pods-Weather Forecaster-Weather ForecasterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C19BAE86FD56FF43C00DE1C8 /* Pods-Weather Forecaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Forecaster.release.xcconfig"; path = "Target Support Files/Pods-Weather Forecaster/Pods-Weather Forecaster.release.xcconfig"; sourceTree = "<group>"; };
+		C99143E727ADDDAA004216FE /* Weather Forecaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Forecaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99143EA27ADDDAA004216FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C99143EC27ADDDAA004216FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C99143EE27ADDDAA004216FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99143F127ADDDAA004216FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C99143F327ADDDAC004216FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C99143F627ADDDAC004216FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C99143F827ADDDAC004216FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99143FD27ADDDAC004216FE /* Weather ForecasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather ForecasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C991440127ADDDAC004216FE /* Weather_ForecasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_ForecasterTests.swift; sourceTree = "<group>"; };
+		C991440727ADDDAC004216FE /* Weather ForecasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather ForecasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C991440B27ADDDAC004216FE /* Weather_ForecasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_ForecasterUITests.swift; sourceTree = "<group>"; };
+		C991440D27ADDDAC004216FE /* Weather_ForecasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_ForecasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2639E77EEF4E5C295E8697E /* Pods-Weather ForecasterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather ForecasterTests.release.xcconfig"; path = "Target Support Files/Pods-Weather ForecasterTests/Pods-Weather ForecasterTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC0D1E6457FEB20847212C56 /* Pods_Weather_Forecaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_Forecaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99143E427ADDDAA004216FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FD1E79D69461AA75AB7CF1 /* Pods_Weather_Forecaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99143FA27ADDDAC004216FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657EF99EBD5FA0E3169544C5 /* Pods_Weather_ForecasterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991440427ADDDAC004216FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B14FB2271EA5F8019304EA /* Pods_Weather_Forecaster_Weather_ForecasterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533A9FB7A04C5B7FC8954B2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0D1E6457FEB20847212C56 /* Pods_Weather_Forecaster.framework */,
+				9CB143F9BEDBE761F995D2F3 /* Pods_Weather_Forecaster_Weather_ForecasterUITests.framework */,
+				5FF12DD3E35DC2150E326BA5 /* Pods_Weather_ForecasterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C99143DE27ADDDAA004216FE = {
+			isa = PBXGroup;
+			children = (
+				C99143E927ADDDAA004216FE /* Weather Forecaster */,
+				C991440027ADDDAC004216FE /* Weather ForecasterTests */,
+				C991440A27ADDDAC004216FE /* Weather ForecasterUITests */,
+				C99143E827ADDDAA004216FE /* Products */,
+				E68D071D9559F3F3885A2CB4 /* Pods */,
+				533A9FB7A04C5B7FC8954B2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C99143E827ADDDAA004216FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99143E727ADDDAA004216FE /* Weather Forecaster.app */,
+				C99143FD27ADDDAC004216FE /* Weather ForecasterTests.xctest */,
+				C991440727ADDDAC004216FE /* Weather ForecasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99143E927ADDDAA004216FE /* Weather Forecaster */ = {
+			isa = PBXGroup;
+			children = (
+				C991441A27ADDDBE004216FE /* ApplicationDelegate */,
+				C991441B27ADDDCC004216FE /* Controllers */,
+				C991441D27ADDDFA004216FE /* Networking */,
+				C991441C27ADDDDE004216FE /* Storyboards */,
+				C99143F327ADDDAC004216FE /* Assets.xcassets */,
+				C99143F827ADDDAC004216FE /* Info.plist */,
+			);
+			path = "Weather Forecaster";
+			sourceTree = "<group>";
+		};
+		C991440027ADDDAC004216FE /* Weather ForecasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C991440127ADDDAC004216FE /* Weather_ForecasterTests.swift */,
+			);
+			path = "Weather ForecasterTests";
+			sourceTree = "<group>";
+		};
+		C991440A27ADDDAC004216FE /* Weather ForecasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C991440B27ADDDAC004216FE /* Weather_ForecasterUITests.swift */,
+				C991440D27ADDDAC004216FE /* Weather_ForecasterUITestsLaunchTests.swift */,
+			);
+			path = "Weather ForecasterUITests";
+			sourceTree = "<group>";
+		};
+		C991441A27ADDDBE004216FE /* ApplicationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C99143EA27ADDDAA004216FE /* AppDelegate.swift */,
+				C99143EC27ADDDAA004216FE /* SceneDelegate.swift */,
+			);
+			path = ApplicationDelegate;
+			sourceTree = "<group>";
+		};
+		C991441B27ADDDCC004216FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C99143EE27ADDDAA004216FE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C991441C27ADDDDE004216FE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C99143F027ADDDAA004216FE /* Main.storyboard */,
+				C99143F527ADDDAC004216FE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C991441D27ADDDFA004216FE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E68D071D9559F3F3885A2CB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				845FBF82E532A7D02B9C1160 /* Pods-Weather Forecaster.debug.xcconfig */,
+				C19BAE86FD56FF43C00DE1C8 /* Pods-Weather Forecaster.release.xcconfig */,
+				A1706C340FCD7FE3CBD11275 /* Pods-Weather Forecaster-Weather ForecasterUITests.debug.xcconfig */,
+				712CB9D4D4DC6E7C1AE055AB /* Pods-Weather Forecaster-Weather ForecasterUITests.release.xcconfig */,
+				45B2A76B71DE454227415A7E /* Pods-Weather ForecasterTests.debug.xcconfig */,
+				D2639E77EEF4E5C295E8697E /* Pods-Weather ForecasterTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99143E627ADDDAA004216FE /* Weather Forecaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C991441127ADDDAC004216FE /* Build configuration list for PBXNativeTarget "Weather Forecaster" */;
+			buildPhases = (
+				D513FB9B949807E72F884F72 /* [CP] Check Pods Manifest.lock */,
+				C99143E327ADDDAA004216FE /* Sources */,
+				C99143E427ADDDAA004216FE /* Frameworks */,
+				C99143E527ADDDAA004216FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weather Forecaster";
+			productName = "Weather Forecaster";
+			productReference = C99143E727ADDDAA004216FE /* Weather Forecaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99143FC27ADDDAC004216FE /* Weather ForecasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C991441427ADDDAC004216FE /* Build configuration list for PBXNativeTarget "Weather ForecasterTests" */;
+			buildPhases = (
+				3FB32D2F91F2AA50102363EC /* [CP] Check Pods Manifest.lock */,
+				C99143F927ADDDAC004216FE /* Sources */,
+				C99143FA27ADDDAC004216FE /* Frameworks */,
+				C99143FB27ADDDAC004216FE /* Resources */,
+				2049B564BFC1238B9A0A7EA7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99143FF27ADDDAC004216FE /* PBXTargetDependency */,
+			);
+			name = "Weather ForecasterTests";
+			productName = "Weather ForecasterTests";
+			productReference = C99143FD27ADDDAC004216FE /* Weather ForecasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C991440627ADDDAC004216FE /* Weather ForecasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C991441727ADDDAC004216FE /* Build configuration list for PBXNativeTarget "Weather ForecasterUITests" */;
+			buildPhases = (
+				270DC48B028D76C4F218822A /* [CP] Check Pods Manifest.lock */,
+				C991440327ADDDAC004216FE /* Sources */,
+				C991440427ADDDAC004216FE /* Frameworks */,
+				C991440527ADDDAC004216FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C991440927ADDDAC004216FE /* PBXTargetDependency */,
+			);
+			name = "Weather ForecasterUITests";
+			productName = "Weather ForecasterUITests";
+			productReference = C991440727ADDDAC004216FE /* Weather ForecasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99143DF27ADDDAA004216FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C99143E627ADDDAA004216FE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C99143FC27ADDDAC004216FE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C99143E627ADDDAA004216FE;
+					};
+					C991440627ADDDAC004216FE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C99143E627ADDDAA004216FE;
+					};
+				};
+			};
+			buildConfigurationList = C99143E227ADDDAA004216FE /* Build configuration list for PBXProject "Weather Forecaster" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99143DE27ADDDAA004216FE;
+			productRefGroup = C99143E827ADDDAA004216FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99143E627ADDDAA004216FE /* Weather Forecaster */,
+				C99143FC27ADDDAC004216FE /* Weather ForecasterTests */,
+				C991440627ADDDAC004216FE /* Weather ForecasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99143E527ADDDAA004216FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99143F727ADDDAC004216FE /* LaunchScreen.storyboard in Resources */,
+				C99143F427ADDDAC004216FE /* Assets.xcassets in Resources */,
+				C99143F227ADDDAA004216FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99143FB27ADDDAC004216FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991440527ADDDAC004216FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2049B564BFC1238B9A0A7EA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weather ForecasterTests/Pods-Weather ForecasterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weather ForecasterTests/Pods-Weather ForecasterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weather ForecasterTests/Pods-Weather ForecasterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		270DC48B028D76C4F218822A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weather Forecaster-Weather ForecasterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FB32D2F91F2AA50102363EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weather ForecasterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D513FB9B949807E72F884F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weather Forecaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99143E327ADDDAA004216FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99143EF27ADDDAA004216FE /* ViewController.swift in Sources */,
+				C99143EB27ADDDAA004216FE /* AppDelegate.swift in Sources */,
+				C99143ED27ADDDAA004216FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99143F927ADDDAC004216FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C991440227ADDDAC004216FE /* Weather_ForecasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C991440327ADDDAC004216FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C991440C27ADDDAC004216FE /* Weather_ForecasterUITests.swift in Sources */,
+				C991440E27ADDDAC004216FE /* Weather_ForecasterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99143FF27ADDDAC004216FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99143E627ADDDAA004216FE /* Weather Forecaster */;
+			targetProxy = C99143FE27ADDDAC004216FE /* PBXContainerItemProxy */;
+		};
+		C991440927ADDDAC004216FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99143E627ADDDAA004216FE /* Weather Forecaster */;
+			targetProxy = C991440827ADDDAC004216FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99143F027ADDDAA004216FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99143F127ADDDAA004216FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C99143F527ADDDAC004216FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99143F627ADDDAC004216FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C991440F27ADDDAC004216FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C991441027ADDDAC004216FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C991441227ADDDAC004216FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 845FBF82E532A7D02B9C1160 /* Pods-Weather Forecaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather Forecaster/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quivercoding.Weather-Forecaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C991441327ADDDAC004216FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19BAE86FD56FF43C00DE1C8 /* Pods-Weather Forecaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather Forecaster/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quivercoding.Weather-Forecaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C991441527ADDDAC004216FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B2A76B71DE454227415A7E /* Pods-Weather ForecasterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quivercoding.Weather-ForecasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather Forecaster.app/Weather Forecaster";
+			};
+			name = Debug;
+		};
+		C991441627ADDDAC004216FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2639E77EEF4E5C295E8697E /* Pods-Weather ForecasterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quivercoding.Weather-ForecasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weather Forecaster.app/Weather Forecaster";
+			};
+			name = Release;
+		};
+		C991441827ADDDAC004216FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1706C340FCD7FE3CBD11275 /* Pods-Weather Forecaster-Weather ForecasterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quivercoding.Weather-ForecasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weather Forecaster";
+			};
+			name = Debug;
+		};
+		C991441927ADDDAC004216FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712CB9D4D4DC6E7C1AE055AB /* Pods-Weather Forecaster-Weather ForecasterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JS2FND328;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quivercoding.Weather-ForecasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weather Forecaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99143E227ADDDAA004216FE /* Build configuration list for PBXProject "Weather Forecaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991440F27ADDDAC004216FE /* Debug */,
+				C991441027ADDDAC004216FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C991441127ADDDAC004216FE /* Build configuration list for PBXNativeTarget "Weather Forecaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991441227ADDDAC004216FE /* Debug */,
+				C991441327ADDDAC004216FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C991441427ADDDAC004216FE /* Build configuration list for PBXNativeTarget "Weather ForecasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991441527ADDDAC004216FE /* Debug */,
+				C991441627ADDDAC004216FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C991441727ADDDAC004216FE /* Build configuration list for PBXNativeTarget "Weather ForecasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C991441827ADDDAC004216FE /* Debug */,
+				C991441927ADDDAC004216FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99143DF27ADDDAA004216FE /* Project object */;
+}
